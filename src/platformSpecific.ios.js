@@ -1,6 +1,6 @@
 import utils from './utils';
 import Navigation from './Navigation';
-import Controllers, { Modal } from 'react-native-controllers';
+import Controllers, { Modal } from '../index-controllers';
 const React = Controllers.hijackReact();
 const {
   ControllerRegistry,
