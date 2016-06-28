@@ -114,22 +114,6 @@
 		266BFEBA1D2317330084AC55 = {
 			isa = PBXGroup;
 			children = (
-				266BFEC51D2317330084AC55 /* ReactNativeNavigation */,
-				266BFEC41D2317330084AC55 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		266BFEC41D2317330084AC55 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				266BFEC31D2317330084AC55 /* libReactNativeNavigation.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		266BFEC51D2317330084AC55 /* ReactNativeNavigation */ = {
-			isa = PBXGroup;
-			children = (
 				266BFED51D2317D20084AC55 /* Helpers */,
 				266BFED81D2317D20084AC55 /* RCCToolBar */,
 				266BFEDB1D2317D20084AC55 /* RCCDrawerController */,
@@ -146,8 +130,16 @@
 				266BFF0B1D2317D20084AC55 /* RCCNavigationController.h */,
 				266BFF0C1D2317D20084AC55 /* RCCTabBarController.h */,
 				266BFF0D1D2317D20084AC55 /* RCCTabBarController.m */,
+				266BFEC41D2317330084AC55 /* Products */,
 			);
-			path = ReactNativeNavigation;
+			sourceTree = "<group>";
+		};
+		266BFEC41D2317330084AC55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				266BFEC31D2317330084AC55 /* libReactNativeNavigation.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		266BFED51D2317D20084AC55 /* Helpers */ = {
@@ -404,6 +396,10 @@
 		266BFECD1D2317330084AC55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -413,6 +409,10 @@
 		266BFECE1D2317330084AC55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

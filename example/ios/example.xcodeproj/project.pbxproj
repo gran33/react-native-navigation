@@ -89,13 +89,6 @@
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
 		};
-		266365471D2318FF00D02D20 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 266365391D2318FF00D02D20 /* ReactNativeControllers.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D8AFADBD1BEE6F3F00A4592D;
-			remoteInfo = ReactNativeControllers;
-		};
 		266BFF2A1D2317F90084AC55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 266BFF261D2317F90084AC55 /* ReactNativeNavigation.xcodeproj */;
@@ -139,7 +132,6 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = example/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = example/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		266365391D2318FF00D02D20 /* ReactNativeControllers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeControllers.xcodeproj; path = "../../ios-controllers/ReactNativeControllers.xcodeproj"; sourceTree = "<group>"; };
 		266BFF261D2317F90084AC55 /* ReactNativeNavigation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeNavigation.xcodeproj; path = "../node_modules/react-native-navigation/ios/ReactNativeNavigation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -269,14 +261,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2663653A1D2318FF00D02D20 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				266365481D2318FF00D02D20 /* libReactNativeControllers.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		266BFF271D2317F90084AC55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,7 +280,6 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				266365391D2318FF00D02D20 /* ReactNativeControllers.xcodeproj */,
 				266BFF261D2317F90084AC55 /* ReactNativeNavigation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -448,10 +431,6 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = 2663653A1D2318FF00D02D20 /* Products */;
-					ProjectRef = 266365391D2318FF00D02D20 /* ReactNativeControllers.xcodeproj */;
-				},
-				{
 					ProductGroup = 266BFF271D2317F90084AC55 /* Products */;
 					ProjectRef = 266BFF261D2317F90084AC55 /* ReactNativeNavigation.xcodeproj */;
 				},
@@ -519,13 +498,6 @@
 			fileType = archive.ar;
 			path = libReact.a;
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		266365481D2318FF00D02D20 /* libReactNativeControllers.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libReactNativeControllers.a;
-			remoteRef = 266365471D2318FF00D02D20 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		266BFF2B1D2317F90084AC55 /* libReactNativeNavigation.a */ = {
